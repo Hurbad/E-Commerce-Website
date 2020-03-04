@@ -1,0 +1,235 @@
+/* Logout button*/
+.logOut
+{
+  position: relative;
+  bottom: -290px;
+  left: 1000px;
+  color: #696969;
+  background-color: #1A292C;
+  border: 3px solid #009688;
+  border-radius: 3px;
+  padding: 5px;
+
+
+}
+/* Logout button*/
+.logOut1
+{
+  position: inherit;
+  color: #696969;
+  background-color: #1A292C;
+  border: 3px solid #009688;
+  border-radius: 3px;
+  padding: 5px;
+
+
+}
+/* Table*/
+.userTable
+{
+  position: relative;
+  bottom: 1px;
+  background-color: #1A292C;
+  top: 20px;
+  left: 40px;
+
+}
+
+/* Table*/
+.userTable, th, td
+{
+  height:10%;
+  width: 33%;
+  border: 1px solid #009688;
+  color: white;
+  padding: 5px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+
+/*Search button*/
+ .search-container button {
+  float: right;
+  margin: 5px;
+  height: 26px;
+  width: 55px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/*Search hover*/
+.search-container button:hover {
+  background: #ccc;
+}
+
+
+.search-container {
+  float: right;
+}
+
+/*Search box input*/
+
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+
+
+/*Input bar */
+input{
+  width: 50%;
+  padding: 5px;
+  text color: # ;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: ;
+  border-radius: 5px
+}
+
+
+
+
+/*Button on Registration & Login*/
+button{
+  background-color:  #009688;
+  color: #1A292C ;
+  padding: 5px 5px;
+  margin: 1px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+
+/*Navigation bar */
+ul {
+  list-style-type: none;
+  margin: -1px;
+
+  overflow: hidden;
+  height: 35px;
+  background-color: #1A292C ;
+  position:;
+  border: 0.5px solid #009688;
+  border-radius: 30px;
+}
+
+/*font + background*/
+
+body {
+  font-family: 'Roboto';font-size: 16px;
+  background-image: url("https://cdn.pling.com/img/7/6/5/5/369d20d7037754783f20c3ddf88d05ee8c5e.png");
+}
+
+/*position of the navbar items*/
+
+li {
+  float: left;
+}
+
+/*hover*/
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #2E4D50;
+   border-radius: 15px ;
+}
+
+/*Dropcounted style*/
+
+li.dropdown {
+  display: inline-block;
+  border-radius: 30px ;
+
+}
+
+/*dropdown*/
+
+.dropdown-content a:hover {
+  background-color: ;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Dropcounted style*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color: #1A292C;
+  border-radius: 15px ;
+  border: 1px solid #009688;
+  border-top: 1px transparent #009688;
+}
+
+.dropdown-content a {
+  color: #009688;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+
+}
+
+
+/*Navbar position&styling*/
+
+li a {
+  display: block;
+  color: #009688;
+  text-align: center;
+  padding: 5px 50px;
+  text-decoration: none;
+}
+
+
+/*Main container*/
+main {
+  background-color: #1A292C;
+  width: 400px;
+  border-radius: 30px ;
+  border: 5px solid #009688;
+  padding: 5px;
+  margin: 10px;
+  top: 200px;
+  left: 650px;
+position: fixed;
+
+}
+
+/*footer style*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 55px;
+  width: 400px;
+  background-color:#1F292F ;
+  color: White;
+  text-align: left;
+}
+
+/*Button for adding cart*/
+.card button {
+  border: none;
+  outline: 0;
+  border-radius: 30px ;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
